@@ -76,20 +76,20 @@ c = [y[i]-ys[i] for i in range(0, len(y))]
 
 fig = plt.figure(1)
 
-# ax1 = plt.subplot(2, 2, 1)
-# plt.plot(t, u)
-# plt.xlabel("Zeit , s")
-# plt.title("Eingang PT1-Glied")
-#
-# ax1 = plt.subplot(2, 2, 2)
-# plt.plot(t, y)
-# plt.xlabel("Zeit , s")
-# plt.title("Ausgang PT1-Glied")
-#
-# ax1 = plt.subplot(2, 2, 3)
-# plt.plot(t, c)
-# plt.xlabel("Zeit , s")
-# plt.title("GDF")
+ax1 = plt.subplot(2, 2, 1)
+plt.plot(t, u)
+plt.xlabel("Zeit , s")
+plt.title("Eingang PT1-Glied")
+
+ax1 = plt.subplot(2, 2, 2)
+plt.plot(t, y)
+plt.xlabel("Zeit , s")
+plt.title("Ausgang PT1-Glied")
+
+ax1 = plt.subplot(2, 2, 3)
+plt.plot(t, c)
+plt.xlabel("Zeit , s")
+plt.title("GDF")
 
 ax1 = plt.subplot(2, 2, 4)
 plt.plot(t, d)
